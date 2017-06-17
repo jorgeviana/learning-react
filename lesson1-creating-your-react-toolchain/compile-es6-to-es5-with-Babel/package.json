@@ -1,0 +1,17 @@
+{
+  "name": "compile-es6-to-es5-with-Babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "npm run build && node index.js && node dist/index.js",
+    "build": "babel index.js -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
